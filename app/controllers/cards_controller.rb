@@ -5,6 +5,7 @@ class CardsController < ApplicationController
   # GET /cards.json
   def index
     @cards = Card.all
+   
   end
 
   # GET /cards/1

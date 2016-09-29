@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  root 'decks#index'
   resources :cards
   resources :decks
   # The priority is based upon order of creation: first created -> highest priority.
